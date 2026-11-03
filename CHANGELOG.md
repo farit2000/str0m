@@ -1,5 +1,7 @@
 # Unreleased
 
+  * Answer without RED where the offer dropped it, stop RED-wrapping where the remote dropped it, and expose `Media::red_allowed`
+
 # 0.25.0
 
   * Reject SDP with conflicting RTX apt values instead of panicking #1113
